@@ -1,0 +1,41 @@
+body {
+	margin: 0px auto;
+	width:100%;
+}
+
+
+table {
+	width:70%;
+	min-width:800px;
+	margin: 0px auto;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+th {
+	font-size: 16px;
+	color:#53a9ff;
+	letter-spacing: 12px;
+}
+td, th {
+	border: 1px solid #a7c5ed;
+	padding: 2px 4px;
+}
+hr{
+	border: 2px dashed #0080ff;
+}
+.orders{
+	background-color: #b0def9;
+}
+.goods{
+	background-color: #d6eefc;
+	line-height: 100%;
+}
+.orders,.goods{
+	text-align: center;
+}
+.no{
+	color:red;
+}
+.yes{
+	color: green;
+}

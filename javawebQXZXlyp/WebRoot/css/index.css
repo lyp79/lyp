@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.btn:hover{
+	cursor: pointer;
+}
+#out{
+	margin: 0px auto;
+	width: 1202px;
+	background-color: rgb(159, 192, 236);
+}
+
+#content {
+	width: 1200px;
+	height: 648px
+}
+/* 头部 */
+#top {
+	height: 90px;
+}
+
+/* 内容开始 */
+#cont_top {
+	height: 26px;
+	background-image: url("../img/middle.png");
+	background-repeat: repeat-x;
+}
+/* 内容左侧开始 */
+#cont_left {
+	border-left:2px solid rgb(159, 192, 236);
+	font-size: 14px; 
+	float : left;
+	width: 220px;
+	height: 610px;
+	width: 220px;
+	background-image: url("../img/macback.png");
+}
+.cont_left_title {
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+	line-height:26px;
+	padding-left:36px;
+	height: 26px;
+	background-image: url("../img/bg.gif");
+	background-repeat: repeat-x;
+}
+.cont_left_l{
+	letter-spacing: 1px;
+}
+label {
+	color:#0066cc;
+	display: inline-block;
+	width: 60px;
+	margin-left: 6px;
+	margin-top: 4px;
+	text-indent: 2x;
+
+}
+
+#cont_left {
+	margin: 6px 0px;;
+}
+.loginMsg{
+	color:#0066cc;
+}
+#cont_right, #center_bar {
+	margin-top: 6px;
+	margin-left: 4px;
+}
+.divHover{
+	height:16x;
+	padding-left:36px;
+	width:100%;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+.divHover a span{
+	display: inline-block;
+	width:18px;
+	height:16px;
+}
+a{
+	height:16x;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+}
+a:link,a:visited,a:active{
+	color:#0066cc;
+	background-image: url("../img/doc.gif");
+	background-position:left center;
+	background-repeat: no-repeat;
+	
+	
+}
+a:hover{
+	color:#ff6262;
+	background-image: url("../img/doc_red.gif");
+	background-position:left center;
+	background-repeat: no-repeat;
+	
+}
+.cont_left_l{
+	padding-bottom:4px; 
+}
+/* 内容左侧结束 */
+#center_bar {
+	float: left;
+	height: 610px;
+	cursor: pointer;
+}
+
+#center_bar img {
+	margin-top: 220px;
+}
+
+/* 内容右侧开始 */
+#cont_right {
+	float: left;
+	height: 610px;
+}
+
+iframe {
+	width: 960px;
+	height: 610px;
+	border:none;
+}
+/* 内容右侧结束 */
+/* 内容结束 */
+
+/* 底部开始 */
+#bottom {
+	height: 26px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+	background-image: url("../img/middle.png");
+	background-repeat: repeat-x;
+	height: 26px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+/* 底部结束 */

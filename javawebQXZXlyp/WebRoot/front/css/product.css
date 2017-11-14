@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+#goodsImg {
+	float: left;
+	margin-left: 10px;
+	border: 1px solid #CDCDCD;
+	width: 310px;
+	height: 310px;
+	text-align: left;
+	overflow: hidden;
+}
+
+#pagebar {
+	text-align: center;
+}
+
+#goodsImg .discount_div {
+	position: absolute;
+	left: 50%;
+	top: 175px;
+	margin-left: -490px;
+	width: 980px;
+	z-index: 1000;
+}
+
+#goodsImg .discount_div div {
+	position: relative;
+	left: 12px;
+	top: 3px;
+	width: 310px;
+	text-align: left;
+	color: #838181;
+}
+
+#detail {
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	width: 350px;
+	font-size: 10pt;
+}
+
+.discount {
+	font-size: 30pt;
+	font-family: Georgia, 'Times new roman,serif';
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.before_price {
+	text-decoration: line-through;
+	color: #878787;
+	font-size: 14pt;
+}
+
+.discount_price {
+	color: #FF5500;
+	margin-left: 10px;
+	font-size: 24pt;
+	font-family: '宋体';
+	font-weight: 'Times new roman';
+}
+
+#detail p.title {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#op_div {
+	border: 1px solid #98BFF0;
+	height: 70px;
+	padding: 5px;
+	background-color: #E5EAF0;
+	color: #404040;
+}
+
+#op_div .num input {
+	width: 30px;
+	height: 15px;
+	border: 1px solid #404040;
+}
+
+#op_div .btn {
+	text-align: center;
+	padding: 5px;
+}
+
+#op_div .btn input {
+	cursor: pointer;
+	width: 140px;
+	height: 37px;
+	border: 0px;
+	background: url(../images/buy_button.png) no-repeat -280px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#bottom {
+	height: 26px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+	background-image: url("../images/middle.png");
+	background-repeat: repeat-x;
+	height: 26px;
+	text-align: center;
+	letter-spacing: 1px;
+}

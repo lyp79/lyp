@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+/*中部-左边产品导航*/
+#middle_left_div {
+	float: left;
+	width: 250px;
+	margin-top: 20px;
+}
+
+#paihang {
+	border: 1px solid #CCE3F1;
+	padding: 3px;
+	margin-left: 3px;
+}
+
+#pagebar {
+	text-align: center;
+}
+
+#paihang .product_title {
+	text-align: left;
+	color: #2F85EF;
+	margin: 0px;
+	padding: 3px;
+	font-weight: bold;
+	background: url(../images/best.gif) no-repeat left center #fff;
+	text-indent: 27px;
+}
+
+#paihang table {
+	clear: both;
+	border-collapse: collapse;
+	margin-top: 3px;
+	width: 100%;
+	font-size: 11pt;
+	border-spacing: 0px;
+}
+
+#paihang table td {
+	border-top: 1px dashed #ccc;
+	height: 35px;
+}
+
+#paihang table a {
+	display: block;
+	color: #2C6DB2;
+	text-decoration: none;
+	text-indent: 30px;
+	height: 17px;
+	font-size: 10pt;
+}
+
+#paihang table a:hover {
+	color: #E8860F;
+}
+
+.goods_0 a {
+	background: url(../images/paihang.png) no-repeat 0px -5px;
+}
+
+.goods_1 a {
+	background: url(../images/paihang.png) no-repeat 0px -31px;
+}
+
+.goods_2 a {
+	background: url(../images/paihang.png) no-repeat 0px -57px;
+}
+
+.goods_3 a {
+	background: url(../images/paihang.png) no-repeat 0px -83px;
+}
+
+.goods_4 a {
+	background: url(../images/paihang.png) no-repeat 0px -109px;
+}
+
+.goods_5 a {
+	background: url(../images/paihang.png) no-repeat 0px -135px;
+}
+
+.goods_6 a {
+	background: url(../images/paihang.png) no-repeat 0px -161px;
+}
+
+.goods_7 a {
+	background: url(../images/paihang.png) no-repeat 0px -187px;
+}
+
+.goods_8 a {
+	background: url(../images/paihang.png) no-repeat 0px -213px;
+}
+
+.goods_9 a {
+	background: url(../images/paihang.png) no-repeat 0px -239px;
+}
+
+td.num {
+	font-size: 10pt;
+	color: #999;
+	text-align: right;
+}
+
+td.num span {
+	color: #E8860F;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+/*中部-右边*/
+#middle_right_div {
+	float: right;
+	width: 690px;
+	border: 0px solid blue;
+}
+
+.product_table {
+	width: 100%;
+	margin: 3px;
+}
+
+.product_table td {
+	border-bottom: 1px dashed #ccc;
+	height: 80px;
+	padding: 10px;
+}
+
+.product_table a.img {
+	float: left;
+	text-decoration: none;
+}
+
+.product_table img {
+	width: 100px;
+	height: 100px;
+	border: 0px;
+}
+
+.product_table ul {
+	float: left;
+	list-style: none;
+	width: 120px;
+	margin: 3px;
+	padding: 3px;
+	font-size: 10pt;
+}
+
+.product_table li .discount {
+	font-size: 12pt;
+	font-family: Georgia, Times new roman, serif;
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.product_table li {
+	padding-top: 5px;
+}
+
+.product_table li a {
+	color: #1A66B3;
+	text-decoration: none;
+}
+
+.product_table li a:hover {
+	text-decoration: underline;
+}
+
+.product_table .before_price {
+	text-decoration: line-through;
+	color: #878787;
+	font-size: 11pt;
+}
+
+.product_table .discount_price {
+	color: #CC3300;
+	font-size: 11pt;
+}
+
+.pager {
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 0px;
+	font-size: 10pt;
+}

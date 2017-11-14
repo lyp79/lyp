@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+body{
+	background-color: white;
+}
+.input1{
+	display:inline-block;
+	width: 400px;
+}
+form{
+	
+	margin-top: 6px;
+}
+#send{
+	background-image: url("../img/doc.gif");
+	background-repeat:no-repeat;
+	background-size:3%;
+	background-position: left center;
+	font-size: 20px;
+	color:#808080;
+	border-bottom: 2px solid #808080;
+	text-indent: 28px;
+}
+label{
+	display: inline-block;
+	width: 60px;
+	vertical-align: top;
+}
+.update1{
+	display: inline-block;
+	width: 90px;
+	vertical-align: top;
+}
+.d{
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.delk{
+	border: 0px;
+	font-size: 16px;
+}
+
+.btn:hover{
+	cursor: pointer;
+}
+#btn2{
+	margin-left: 110px;
+}
+textarea {
+	resize: none;
+}

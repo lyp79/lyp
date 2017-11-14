@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+#middle_div {
+	height: 460px;
+}
+
+#login_div {
+	float: left;
+	width: 400px;
+	height: 100%;
+	text-align: left;
+	background: url(../images/login_border_y.gif) repeat-y right top;
+}
+
+#register_div {
+	float: left;
+	text-align: center;
+	width: 480px;
+	height: 100%;
+	padding-left: 50px;
+}
+
+.btn_login {
+	width: 57px;
+	height: 57px;
+	background: url(../images/btn_login.gif) no-repeat 0px 0px;
+	border: 0px;
+	margin-left: 20px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.btn_register {
+	width: 125px;
+	height: 53px;
+	background: url(../images/btn_register.gif) no-repeat 0px 0px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.input_box1 {
+	width: 120px;
+	height: 18px;
+	vertical-align: center;
+}
+
+.short_width {
+	width: 50px;
+}
+
+.input_box_long {
+	width: 300px;
+	height: 18px;
+	vertical-align: center;
+}
+
+.register_table {
+	width: 100%;
+	text-align: left;
+}
+
+.register_table td {
+	border-bottom: 1px dashed #ccc;
+	height: 30px;
+	line-height: 30px;
+}
+
+.tooltip {
+	font-size: 9pt;
+	color: #999;
+	font-weight: normal;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+
+#gaoji {
+	text-align: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gaoji div {
+	height: 30px;
+	border-bottom: 1px dashed #ccc;
+	padding: 3px;
+}
+
+.btn61_21 {
+	width: 61px;
+	height: 21px;
+	vertical-align: middle;
+	line-height: 21px;
+	border-width: 0px;
+	border-style: none;
+	padding: 0px;
+	font-size: 12px;
+	margin-right: 3px;
+	background: url(../images/btn.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.errorDiv {
+	color: #f00;
+	font-size: 12pt;
+	text-align: center;
+}
+
+form {
+	clear: both;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+.yzm {
+	margin: 0px;
+	vertical-align: middle;
+}
+#emailMsg{
+	color:red;
+	font-size: 12px;
+}

@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+table {
+	
+	width: 100%;
+	border: 1px solid #AACDED;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.title_table {
+	border-bottom-width: 0px;
+}
+.duiqi{
+	text-align: center;
+}
+th {
+	background-color: #EBF4FB;
+	font-size: 13px;
+	color: #444;
+	font-weight: normal;
+}
+
+td, th {
+	border: 1px solid #AACDED;
+	padding: 3px;
+}
+
+a, img {
+	border: none;
+	vertical-align: middle;
+}
+
+.btn_div {
+	clear: both;
+	padding: 3px;
+	text-align: center;
+	font-size: 14px;
+	color: #444;
+	padding-top: 30px;
+}
+
+.quantity {
+	width: 30px;
+	border: 1px solid #444;
+}
+
+.goodsImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 3px;
+}
+
+.goodsName {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+
+.sumPrice_div {
+	font-size: 12px;
+	margin: 5px 0px 30px 0px;
+}
+
+.sumPrice_div span {
+	font-size: 24pt;
+	font-family: Georgia, 'Times new roman,serif';
+	color: #FF6600;
+	font-weight: bold;
+}
+
+.sumPrice_div .sum {
+	float: left;
+}
+
+.sumPrice_div .clear {
+	float: right;
+	font-size: 11pt;
+	padding-right: 5px;
+	padding-top: 5px;
+}

@@ -1,0 +1,132 @@
+#top {
+	width:100%;
+	text-align: center;
+	margin: 0px;
+	background: url(../images/bg.jpg) repeat-x 0% 0%;
+}
+
+#div_all {
+	width: 980px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 5px 10px 0px;
+	
+}
+/*¶¥²¿*/
+#top_left_div {
+	float: left;
+}
+
+#top_right_div {
+	float: right;
+	margin-top: -10px;
+}
+.memu{
+	margin-right: 10px;
+	border-radius: 5px;
+	border:1px solid #ff0080;
+	overflow: hidden;
+}
+#search_div {
+	clear: both;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	padding: 3px;
+	text-align: right;
+}
+
+.btn_search {
+	width: 52px;
+	height: 22px;
+	line-height: 22px;
+	border: 0px;
+	cursor: pointer;
+	background: url(../images/btn_search.gif) no-repeat 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#search_div input {
+	vertical-align: middle;
+}
+
+#search_div span {
+	color: #797979;
+}
+
+.cart {
+	background: url(../images/cart.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.help {
+	background: url(../images/help.gif) no-repeat left center;
+	padding-left: 16px;
+}
+
+.shoucang {
+	background: url(../images/shoucang.gif) no-repeat left 0px;
+	padding-left: 17px;
+}
+
+.userinfo {
+	background: url(../images/user_info.gif) no-repeat left center;
+	padding-left: 18px;
+}
+
+.loginout {
+	background: url(../images/loginOut.gif) no-repeat left 0px;
+	padding-left: 17px;
+}
+
+.home {
+	background: url(../images/home.gif) no-repeat left center;
+	padding-left: 13px;
+}
+
+#top_right_div .menu {
+	height: 28px;
+	line-height: 28px;
+	font-size: 10pt;
+	background: url(../images/head_top.gif) no-repeat 0px 0px;
+	text-align: center;
+	padding: 3px 6px;
+}
+
+#top_right_div .menu a {
+	color: #7C7C7C;
+	text-decoration: none;
+}
+
+#top_right_div .menu a:hover {
+	color: #DE6705;
+	text-decoration: underline;
+}
+
+#top_right_div .menu span {
+	color: #D8D8D8;
+	padding-top: 1px;
+}
+
+#welcome {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	width: 100%;
+	color: #5A5A5A;
+	font-size: 10pt;
+	text-align: center;
+	z-index: 1000;
+}
+
+#welcome a {
+	text-decoration: none;
+	color: #5A5A5A;
+	line-height: 28px;
+}
+
+#welcome a:hover {
+	color: #F7A70F;
+}

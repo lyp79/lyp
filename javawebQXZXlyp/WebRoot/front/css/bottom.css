@@ -1,0 +1,73 @@
+.body {
+	clear: both;
+	height: 120px;
+	text-align: center;
+	font-size: 9pt;
+	background: url(../images/bg.jpg) repeat-x 0px -30px;
+	padding-top: 30px;
+	margin: 0px;
+}
+/*µ×²¿*/
+#bottom_div {
+	clear: both;
+	width: 100%;
+	border: 1px solid #C4E0F6;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	height: 104px;
+	background: url(../images/box_title_bg.jpg) repeat-x 0% 0%;
+}
+
+#bottom_div div {
+	float: left;
+	margin: 3px;
+	font-size: 10pt;
+	width: 24%;
+}
+
+#bottom_div span.title {
+	clear: both;
+	display: block;
+	text-align: left;
+	text-indent: 100px;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 3px;
+}
+
+#bottom_div ul {
+	clear: both;
+	margin: 3px;
+	padding: 5px 5px 5px 120px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+#bottom_div a {
+	color: #004B91;
+	text-decoration: none;
+}
+
+#bottom_div a:hover {
+	text-decoration: underline;
+}
+
+div.bottom {
+	position: relative;
+	left: 0px;
+	top: 10px;
+	clear: both;
+	padding-bottom: 10px;
+}
+#bottom {
+	height: 26px;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom:2px;
+	background-image: url("../images/middle.png");
+	background-repeat: repeat-x;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+

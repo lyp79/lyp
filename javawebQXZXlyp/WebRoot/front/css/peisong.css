@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+table {
+	width: 100%;
+}
+
+.peisong {
+	background: url(../images/peisong_logo.gif) no-repeat 0px center;
+	border-bottom: 1px solid #9999FF;
+	height: 30px;
+	line-height: 38px;
+	font-size: 12pt;
+	color: #2F85EF;
+	text-indent: 30px;
+	font-weight: bold;
+}
+
+.input_box {
+	width: 140px;
+	height: 18px;
+	vertical-align: center;
+}
+
+.input_box_long {
+	width: 350px;
+	height: 18px;
+	vertical-align: center;
+}
+
+td {
+	height: 35px;
+	border-bottom: 1px dashed #ccc;
+	padding: 3px;
+}
+
+.tooltip {
+	font-size: 9pt;
+	color: #999;
+	font-weight: normal;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+
+.btn61_21 {
+	width: 61px;
+	height: 21px;
+	line-height: 21px;
+	border-width: 0px;
+	border-style: none;
+	padding: 0px;
+	font-size: 12px;
+	margin-right: 3px;
+	background: url(../images/btn.png) no-repeat 0 0;
+	cursor: pointer;
+}

@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+
+body {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #0066cc;
+}
+
+a:hover {
+	color: #ff6262;
+}
+
+a:active {
+	color: green;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+#send {
+	width: 100%;
+	height: 32px;
+	background-image: url("../img/doc.gif");
+	background-repeat: no-repeat;
+	background-size: 3%;
+	background-position: left center;
+	font-size: 20px;
+	color: #808080;
+	text-indent: 28px;
+}
+
+.search {
+	background-image: url("../img/search_ico.gif");
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+hr {
+	margin: 1px;
+	border-bottom: 2px solid #cdcdcd;
+	border-style: solid;
+	box-shadow: 0px -2px 6px #afafaf;
+}
+
+.topSpan {
+	float: right;
+	display: inline-block;
+	margin-right: 10px;
+	padding-bottom: 2px;
+}
+
+.dd {
+	margin-top: 16px;
+	margin-left: 20px;
+}
+
+table {
+	overflow:hidden;
+	width: 98%;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #dfefff;
+	font-size: 16px;
+}
+
+.checkbox {
+	width: 40px;
+}
+
+.btitle {
+	width: auto;
+}
+
+.tdcenter{
+	text-align: center;
+}
+
+.bid {
+	width: 90px;
+}
+.buser{
+	width:70px;
+}
+.btime{
+	width:170px;
+}
+.bbtn{
+	
+	width:120px;
+}
+td, th {
+	border: 1px solid #6fb7ff;
+	text-align: center;
+}
+.msgfont{
+	font-size:18px;
+	color:green;
+}
+
+.tableBtn {
+	width:110px;
+	height:30px;
+	line-height:30px;
+	margin: 0px auto;
+}
+.topBtn{
+	margin-right: 16px;
+}

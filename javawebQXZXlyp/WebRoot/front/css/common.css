@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+	margin: 0px;
+}
+
+#middle_div {
+	width: 980px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sitemap {
+	height: 24px;
+	line-height: 24px;
+	font-size: 10pt;
+	color: #727171;
+	background: url(../images/site_ico.gif) no-repeat 0px 20%;
+	text-indent: 20px;
+}
+
+.sitemap a {
+	color: #727171;
+	text-decoration: none;
+}
+
+.sitemap a:hover {
+	text-decoration: underline;
+}

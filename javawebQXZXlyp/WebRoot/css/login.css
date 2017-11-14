@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+.login{
+	border:1px solid white;
+	width:580px;
+	height:384px;
+	margin:150px auto;
+	background-image: url("../img/login_div_bg.gif");
+	background-repeat: no-repeat;
+}
+form{
+	margin-top:140px;
+}
+.login_c,.login_btn{
+	margin-left:220px; 
+	margin-top: 8px;
+}
+#namemsg,#passmsg{
+	font-size: 14px;
+	color: red;
+}
+label{
+	display: inline-block;
+	width:60px;
+}
+.login_btn{
+	margin-left:280px; 
+}
+.btns,.btnr{
+	width:56px;
+	height:26px;
+}
+.btns{
+	background-image: url("../img/loginE.jpg");
+	background-repeat: no-repeat;
+
+}
+.btnr{
+	background-image: url("../img/loginC.jpg");
+	background-repeat: no-repeat;
+
+}
+#msg{
+	font-size: 12px;
+	color:red;
+}
